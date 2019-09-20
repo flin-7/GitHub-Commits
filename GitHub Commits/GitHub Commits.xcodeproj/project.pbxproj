@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A05355812333612E0063FAEE /* Commit+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A053557F2333612E0063FAEE /* Commit+CoreDataClass.swift */; };
-		A05355822333612E0063FAEE /* Commit+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05355802333612E0063FAEE /* Commit+CoreDataProperties.swift */; };
 		A0C613CB2332118300A62BBE /* Project38.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0C613C92332118300A62BBE /* Project38.xcdatamodeld */; };
+		C2749AEC233554690016D776 /* Commit+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2749AE8233554690016D776 /* Commit+CoreDataClass.swift */; };
+		C2749AED233554690016D776 /* Commit+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2749AE9233554690016D776 /* Commit+CoreDataProperties.swift */; };
+		C2749AEE233554690016D776 /* Author+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2749AEA233554690016D776 /* Author+CoreDataClass.swift */; };
+		C2749AEF233554690016D776 /* Author+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2749AEB233554690016D776 /* Author+CoreDataProperties.swift */; };
 		C29774B3233198C9003215F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29774B2233198C9003215F5 /* AppDelegate.swift */; };
 		C29774B5233198C9003215F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29774B4233198C9003215F5 /* ViewController.swift */; };
 		C29774B8233198C9003215F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29774B6233198C9003215F5 /* Main.storyboard */; };
@@ -20,9 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A053557F2333612E0063FAEE /* Commit+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Commit+CoreDataClass.swift"; sourceTree = "<group>"; };
-		A05355802333612E0063FAEE /* Commit+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Commit+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		A0C613CA2332118300A62BBE /* Project38.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Project38.xcdatamodel; sourceTree = "<group>"; };
+		C2749AE8233554690016D776 /* Commit+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Commit+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C2749AE9233554690016D776 /* Commit+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Commit+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C2749AEA233554690016D776 /* Author+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Author+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C2749AEB233554690016D776 /* Author+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Author+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		C29774AF233198C9003215F5 /* GitHub Commits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GitHub Commits.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C29774B2233198C9003215F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C29774B4233198C9003215F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,8 +68,10 @@
 		C29774B1233198C9003215F5 /* GitHub Commits */ = {
 			isa = PBXGroup;
 			children = (
-				A053557F2333612E0063FAEE /* Commit+CoreDataClass.swift */,
-				A05355802333612E0063FAEE /* Commit+CoreDataProperties.swift */,
+				C2749AE8233554690016D776 /* Commit+CoreDataClass.swift */,
+				C2749AE9233554690016D776 /* Commit+CoreDataProperties.swift */,
+				C2749AEA233554690016D776 /* Author+CoreDataClass.swift */,
+				C2749AEB233554690016D776 /* Author+CoreDataProperties.swift */,
 				C29774B2233198C9003215F5 /* AppDelegate.swift */,
 				C29774B4233198C9003215F5 /* ViewController.swift */,
 				C29774C623319AC5003215F5 /* DetailViewController.swift */,
@@ -150,10 +156,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A05355812333612E0063FAEE /* Commit+CoreDataClass.swift in Sources */,
+				C2749AEC233554690016D776 /* Commit+CoreDataClass.swift in Sources */,
 				C29774C523319915003215F5 /* SwiftyJSON.swift in Sources */,
-				A05355822333612E0063FAEE /* Commit+CoreDataProperties.swift in Sources */,
+				C2749AEF233554690016D776 /* Author+CoreDataProperties.swift in Sources */,
+				C2749AED233554690016D776 /* Commit+CoreDataProperties.swift in Sources */,
 				A0C613CB2332118300A62BBE /* Project38.xcdatamodeld in Sources */,
+				C2749AEE233554690016D776 /* Author+CoreDataClass.swift in Sources */,
 				C29774B5233198C9003215F5 /* ViewController.swift in Sources */,
 				C29774B3233198C9003215F5 /* AppDelegate.swift in Sources */,
 				C29774C723319AC5003215F5 /* DetailViewController.swift in Sources */,

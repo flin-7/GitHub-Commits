@@ -2,7 +2,7 @@
 //  Commit+CoreDataProperties.swift
 //  GitHub Commits
 //
-//  Created by Felix Lin on 9/19/19.
+//  Created by Felix Lin on 9/20/19.
 //  Copyright © 2019 Felix Lin. All rights reserved.
 //
 //
@@ -21,5 +21,6 @@ extension Commit {
     @NSManaged public var message: String
     @NSManaged public var sha: String
     @NSManaged public var url: String
+    @NSManaged public var author: Author
 
 }

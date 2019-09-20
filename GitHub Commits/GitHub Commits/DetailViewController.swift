@@ -12,9 +12,14 @@ class DetailViewController: UIViewController {
 
     @IBOutlet weak var detailLabel: UILabel!
     
+    var detailItem: Commit?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        if let detail = self.detailItem {
+            
+        }
     }
 
 }

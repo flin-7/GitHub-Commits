@@ -1,5 +1,5 @@
 //
-//  Commit+CoreDataClass.swift
+//  Author+CoreDataClass.swift
 //  GitHub Commits
 //
 //  Created by Felix Lin on 9/20/19.
@@ -10,7 +10,7 @@
 import Foundation
 import CoreData
 
-@objc(Commit)
-public class Commit: NSManagedObject {
+@objc(Author)
+public class Author: NSManagedObject {
 
 }
