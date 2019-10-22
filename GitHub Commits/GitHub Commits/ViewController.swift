@@ -19,6 +19,9 @@ class ViewController: UITableViewController, NSFetchedResultsControllerDelegate 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        title = "GitHub Commits"
+        navigationController?.navigationBar.prefersLargeTitles = true
+        
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Filter", style: .plain, target: self, action: #selector(changeFilter))
         
         container = NSPersistentContainer(name: "Project38")
