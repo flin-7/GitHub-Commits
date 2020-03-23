@@ -10,7 +10,7 @@ Latest version of [Xcode](https://developer.apple.com/xcode/)
 
 ## Author
 
-[Felix Lin](https://twitter.com/linfelix165)
+[Felix Lin](https://twitter.com/flin_adobe)
 
 ## Reference
 
